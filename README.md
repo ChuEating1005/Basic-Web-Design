@@ -11,7 +11,7 @@
 - [W3 School](https://www.w3schools.com/)
 - [codecademy](https://www.codecademy.com/)
 
-## In-class Quiz
+## In-class Exercise
 ### class 1
-- [Quiz 1a](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1a_answer)
-- [Quiz 1b](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1b_answer)
+- [Exercise 1a](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1a_answer)
+- [Exercise 1b](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1b_answer)
