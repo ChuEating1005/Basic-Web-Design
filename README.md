@@ -13,5 +13,5 @@
 
 ## In-class Quiz
 ### class 1
-- [Quiz 1a]()
-- [Quiz 1b]()
+- [Quiz 1a](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1a_answer)
+- [Quiz 1b](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1b_answer)
