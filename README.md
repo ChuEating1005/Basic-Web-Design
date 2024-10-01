@@ -12,6 +12,9 @@
 - [codecademy](https://www.codecademy.com/)
 
 ## In-class Exercise
-### class 1
-- [Exercise 1a](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1a_answer)
-- [Exercise 1b](https://chueating1005.github.io/Basic-Web-Design/class1/class-project-1b_answer)
+### Exercise 1
+- [Exercise 1a](https://chueating1005.github.io/Basic-Web-Design/exercise1/class-project-1a_answer)
+- [Exercise 1b](https://chueating1005.github.io/Basic-Web-Design/exercise1/class-project-1b_answer)
+
+### Exercise 2
+- [link](https://chueating1005.github.io/Basic-Web-Design/exercise2/index)
