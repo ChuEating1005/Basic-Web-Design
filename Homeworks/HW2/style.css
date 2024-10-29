@@ -1,0 +1,190 @@
+/* Reset some basic styles */
+html {
+    width: 100%;
+}
+
+.inria-serif-bold {
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(#666666, #000000);
+    font-family: 'Source Sans Pro', monospace;
+    color: white;
+}
+
+.container {
+    width: 1365px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+nav {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    background-color: #000000;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-image {
+    flex: 2;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.main-text {
+    padding: 40px;
+    flex: 1;
+}
+
+.main-text h2 {
+    font-size: 2.5rem;
+}
+
+.main-text p {
+    font-size: 1rem;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+.feature1 {
+    margin-top: 30px;
+    min-height: 300px;
+    display: flex;
+    gap: 17px
+}
+
+.feature2 {
+    margin-top: 30px;
+    min-height: 300px;
+    display: flex;
+    gap: 17px
+}
+
+.feature1 .feature-img {
+    flex: 3;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/feature1.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.feature2 .feature-img {
+    flex: 3;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/feature2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.feature-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent overlay (adjust opacity as needed) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img h2 {
+    color: rgb(37, 37, 37);
+    font-size: 3rem;
+}
+
+.feature-boxes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.feature-boxes .box{
+    height: 100%;
+    background-color: white;
+    color: rgb(84, 84, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-size: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 22px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.card{
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 {
+    background-image: url(./images/card1.jpeg);
+}
+
+.card2 {
+    background-image: url(./images/card2.jpeg);
+}
+
+.card3 {
+    background-image: url(./images/card3.jpeg);
+}
+
+.card4 {
+    background-image: url(./images/card4.png);
+}
+
+.label{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
