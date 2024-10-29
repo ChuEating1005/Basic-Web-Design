@@ -18,3 +18,6 @@
 
 ### Exercise 2
 - [link](https://chueating1005.github.io/Basic-Web-Design/exercise2/index)
+
+## Homeworks
+- [HW2](https://chueating1005.github.io/Basic-Web-Design/Homeworks/HW2/index)
