@@ -21,3 +21,4 @@
 
 ## Homeworks
 - [HW2](https://chueating1005.github.io/Basic-Web-Design/Homeworks/HW2/index)
+- [HW3](https://chueating1005.github.io/Basic-Web-Design/Homeworks/HW3/index)
