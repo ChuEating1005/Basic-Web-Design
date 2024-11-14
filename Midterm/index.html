@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>STUDENT_ID</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="logo">
+                <h1>網頁設計期中考</h1>
+            </div>
+            <nav>
+                <div class="nav-item">
+                    <a href="#">NAV 1</a>
+                    <div class="dropdown">
+                        <div class="nav-item"><a href="#">NAV 1-1</a></div>
+                        <div class="nav-item"><a href="#">NAV 1-2</a></div>
+                        <div class="nav-item"><a href="#">NAV 1-3</a></div>
+                    </div>
+                </div>
+                <div class="nav-item"><a href="#">NAV 2</a></div>
+            </nav>
+        </header>
+        <div class="content">
+            <main>
+                <div class="problems">
+                    <h2>壹、概念題</h2>
+                    <div class="question">
+                        <p>Q1: 請問使用 css-reset 的目的是什麼? (填充)</p>
+                        <input type="text" value="為了消除不同瀏覽器的預設樣式差異，確保網頁在各瀏覽器上有一致的外觀">
+                    </div>
+                    <div class="question">
+                        <p>Q2: 以下的敘述何者符合 Responsive Website Design(RWD)? (多選)</p>
+                        <div class="options">
+                            <label><input type="checkbox" name="q2" value="A" checked>(A) 使網站在不同設備上都能正確顯示和運作</label><br>
+                            <label><input type="checkbox" name="q2" value="B" checked>(B) 使用相對單位(如百分比)設置元素寬度，以適應不同螢幕尺寸</label><br>
+                            <label><input type="checkbox" name="q2" value="C" checked>(C) 提供一致的使用者介面和體驗</label><br>
+                            <label><input type="checkbox" name="q2" value="D">(D) 改進搜尋引擎優化(SEO)</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q3: 若我要修改 "className" 的中 "div" 類別的元件，要使用以下哪個selector？（單選）</p>
+                        <div class="options">
+                            <label><input type="radio" name="q3" value="A" checked>(A) div.className{...}</label><br>
+                            <label><input type="radio" name="q3" value="B">(B) className.div{...}</label><br>
+                            <label><input type="radio" name="q3" value="C">(C) div className{...}</label><br>
+                            <label><input type="radio" name="q3" value="D">(D) className:div{...}</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q4: 以下哪一項描述了padding和margin的區別？（單選）</p>
+                        <div class="options">
+                            <label><input type="radio" name="q4" value="A">(A) padding 是元素的外部間距，margin 是元素的內部間距</label><br>
+                            <label><input type="radio" name="q4" value="B" checked>(B) padding 是元素內容與邊框之間的距離，margin 是元素與其他元素之間的距離</label><br>
+                            <label><input type="radio" name="q4" value="C">(C) padding 和 margin 是同一個屬性，用於調節元素之間的距離</label><br>
+                            <label><input type="radio" name="q4" value="D">(D) margin 只適用於行內元素，而 padding 只適用於區塊元素</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>Q5: 關於CSS中的em和rem單位，下列敘述何者有誤？（單選）</p>
+                        <div class="options">
+                            <label><input type="radio" name="q5" value="A">(A) rem 是相對於 html 或 :root 元素字體大小的相對單位</label><br>
+                            <label><input type="radio" name="q5" value="B">(B) 如果父元素字體大小是 16px，則 1.5em 相當於 24px。</label><br>
+                            <label><input type="radio" name="q5" value="C">(C) rem 單位不會受到父元素樣式的影響。</label><br>
+                            <label><input type="radio" name="q5" value="D" checked>(D) 在 font-size 的定義中，1em 等同於 1rem，但在 padding 和 margin 中不是如此。</label><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="row1">
+                        <div class="t-box">
+                            <p>This is my first box, I will be implementing this with flex.</p>
+                            <p>－ Student A</p>
+                        </div>
+                        <div class="t-box">
+                            <p>If these boxes are not implemented with flex ...</p>
+                            <p>－ Student B</p>
+                        </div>
+                        <div class="t-box">
+                            <p>I will get no point in this section, which is awful!</p>
+                            <p>－ Student C</p>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="row2-1">
+                            <div class="image-box image-box1"></div>
+                        </div>
+                        <div class="row2-2">
+                            <div class="image-box image-box2"></div>
+                            <div class="image-box image-box3"></div>
+                        </div>
+                    </div>
+                    <div class="row3">
+                        <div class="color-box color-box1"></div>
+                        <div class="color-box color-box2"></div>
+                        <div class="color-box color-box3"></div>
+                    </div>
+                </div>
+            </main>
+            <aside>
+                <h2>貳、側邊欄</h2>
+                <p>
+                    This is the fake text you will be typing on your sidebar in your midterm exam of the class 
+                    <span class="block"></span> 
+                    “Basic Web Design” for this semester.
+                </p>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>

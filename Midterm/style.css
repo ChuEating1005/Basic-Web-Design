@@ -1,0 +1,206 @@
+html {
+    width: 100%;
+}
+
+body {
+    color: black;
+}
+
+#container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background: #CFEEFF;
+
+    h1 {
+        font-size: 40px;
+        color: black;
+    }
+}
+
+nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    
+    a { 
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-item {
+        display: inline-block;
+        align-items: left;
+        position: relative;
+    }
+    
+    .nav-item:hover{
+        background-color: #eed454;
+    }
+
+    .dropdown {
+        padding-top: 20px;
+        z-index: 1;
+        display: none;
+        width: 150px;
+        position: absolute;
+    }
+
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+}
+
+.content {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+main {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 1200px;
+}
+
+.problems {
+    background: #F0F0F0;
+    flex: 3;
+    padding: 10px 10px;
+}
+
+.question {
+    padding: 15px 0px;
+}
+
+.boxes {
+    background: #F0F0F0;
+    padding: 10px 10px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row1 {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.row2-2 {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.row3 {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.t-box {
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.t-box p {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.t-box p:last-child {
+    text-align: right;
+    font-size: 16px;
+}
+
+.image-box {
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.image-box1 {
+    background-image: url(images/chatgpt.png);   
+}
+
+.image-box2 {
+    background-image: url(images/chrome.png);
+}
+
+.image-box3 {
+    background-image: url(images/e3.png);
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.color-box1 {
+    background: gray;
+}
+
+.color-box2 {
+    background: white;
+}
+
+.color-box3 {
+    background: black;
+}
+
+aside {
+    flex: 1;
+    background: #F0F0F0;
+    padding: 10px 10px;
+}
+
+.block {
+    display: inline-block;
+    width: 15%;
+    height: 1em;
+    background-color: yellow;
+    vertical-align: middle;
+}
