@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.col {
+    background-color: lightblue;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .col {
+        width: 47%;
+    }
+    .hide-desktop {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col {
+        width: 100%;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
