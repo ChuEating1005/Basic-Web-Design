@@ -52,6 +52,7 @@ nav {
         padding-top: 20px;
         z-index: 1;
         display: none;
+        background: #CFEEFF;
         width: 150px;
         position: absolute;
     }
@@ -162,15 +163,15 @@ main {
 }
 
 .image-box1 {
-    background-image: url(images/chatgpt.png);   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8p1ROo24-YnKcp2_hKo6eZFOqXAqR1QXh923ZQIXG-gm2OGBDfx4IUyZFA9Mm1rtWLlc&usqp=CAU);   
 }
 
 .image-box2 {
-    background-image: url(images/chrome.png);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUJEXpNihyAXOR6j4qYkb-wWPvpP7hGB6SWkhHNAiqm4LXIFZBSIgKCNi56CEzbFmsMsQ&usqp=CAU);
 }
 
 .image-box3 {
-    background-image: url(images/e3.png);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGcLiUdf09TEyZ8bBGbLtLLrYwhy_i1YhMawdVW-BOTu04HtYL2B_aZ70XRmn5hn4CrJE&usqp=CAU);
 }
 
 .color-box {
@@ -191,6 +192,11 @@ main {
     background: black;
 }
 
+.color-box4 {
+    display: none;
+    background: linear-gradient(#52ACFF, #FFE32C);
+}
+
 aside {
     flex: 1;
     background: #F0F0F0;
@@ -203,4 +209,36 @@ aside {
     height: 1em;
     background-color: yellow;
     vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 90%; /* Changed to 90% */
+    }
+    aside {
+        display: none;
+    }
+    .t-box {
+        width: 90%; 
+        border: 1px solid #6789DB;
+        border-radius: 10px;
+        box-shadow: 10px 10px 4px grey;
+    }
+    .t-box:nth-child(2),
+    .t-box:nth-child(3) {
+        display: none;
+    }
+    .image-box1 {
+        display: none;
+    }
+
+    .row3 {
+        justify-content: center;
+    }
+    .color-box1, .color-box2, .color-box3 {
+        display: none;
+    }
+    .color-box4 {
+        display: block;
+    }
 }
