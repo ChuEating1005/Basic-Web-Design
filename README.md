@@ -13,11 +13,11 @@
 
 ## In-class Exercise
 ### Exercise 1
-- [Exercise 1a](https://chueating1005.github.io/Basic-Web-Design/exercise1/class-project-1a_answer)
-- [Exercise 1b](https://chueating1005.github.io/Basic-Web-Design/exercise1/class-project-1b_answer)
+- [Exercise 1a](https://chueating1005.github.io/Basic-Web-Design/Exercises/exercise1/class-project-1a_answer)
+- [Exercise 1b](https://chueating1005.github.io/Basic-Web-Design/Exercises/exercise1/class-project-1b_answer)
 
 ### Exercise 2
-- [link](https://chueating1005.github.io/Basic-Web-Design/exercise2/index)
+- [link](https://chueating1005.github.io/Basic-Web-Design/Exercises/exercise2/index)
 
 ## Homeworks
 - [HW2](https://chueating1005.github.io/Basic-Web-Design/Homeworks/HW2/index)
