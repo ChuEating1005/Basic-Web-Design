@@ -34,6 +34,7 @@ nav {
     font-size: 30px;
     
     a { 
+        font-size: 25px;
         text-decoration: none;
         color: black;
     }
@@ -134,24 +135,24 @@ main {
 }
 
 .t-box {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
-    padding: 30px 30px;
+    padding: 15px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .t-box p {
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.2;
     text-align: left;
 }
 
 .t-box p:last-child {
     text-align: right;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .image-box {
@@ -175,8 +176,8 @@ main {
 }
 
 .color-box {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
 }
 
@@ -195,6 +196,7 @@ main {
 .color-box4 {
     display: none;
     background: linear-gradient(#52ACFF, #FFE32C);
+    width: 300px; 
 }
 
 aside {
@@ -205,7 +207,7 @@ aside {
 
 .block {
     display: inline-block;
-    width: 15%;
+    width: 200px;
     height: 1em;
     background-color: yellow;
     vertical-align: middle;
@@ -219,7 +221,7 @@ aside {
         display: none;
     }
     .t-box {
-        width: 90%; 
+        width: 300px; 
         border: 1px solid #6789DB;
         border-radius: 10px;
         box-shadow: 10px 10px 4px grey;
@@ -232,6 +234,9 @@ aside {
         display: none;
     }
 
+    .image-box2, .image-box3 {
+        width: 300px; 
+    }
     .row3 {
         justify-content: center;
     }
@@ -240,5 +245,6 @@ aside {
     }
     .color-box4 {
         display: block;
+        
     }
 }
