@@ -39,12 +39,6 @@ nav {
         color: black;
     }
 
-    .nav-item {
-        display: inline-block;
-        align-items: left;
-        position: relative;
-    }
-    
     .nav-item:hover{
         background-color: #eed454;
     }
