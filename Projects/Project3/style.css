@@ -1,35 +1,158 @@
+body {
+    font-family: 'Asap', sans-serif;
+    color: white;
+    background-color: #EBEBEB;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.highlight {
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .container {
+    /* background-color: rgb(73, 215, 73); */
+    min-height: 500px;
+    max-width: 1024px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
+    padding-top: 140px;
 }
 
 .hide-desktop {
     display: none;
 }
 
+.mobile-wrapper {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+    position: absolute;
+}
+
 .col {
-    background-color: lightblue;
+    background-color: blueviolet;
     min-height: 200px;
     width: 30%;
     margin-bottom: 40px;
 }
 
+p::first-line {
+    font-weight: 700;
+}
+
+.col p {
+    font-size: 0.875rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.header-container {
+    background-color: rgb(60, 60, 60);
+    min-height: 100px;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    max-width: 1024px;
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.mybutton {
+    padding: 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
+}
+
+
 @media screen and (max-width: 768px) {
     .col {
         width: 47%;
-    }
+    } 
     .hide-desktop {
         display: block;
     }
-}
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-wrapper {
+        display: block;
+    }
+    .mob-button {
+        display: block;
+        padding: 15px 30px;
+        background-color: orange;
+        text-align: center;
+    }
+    .mob-button:hover {
+        background-color: rgb(242, 178, 58);
+    }
+    .logo {
+        padding: 40px 0; 
+    }
 
-@media screen and (max-width: 480px) {
+    .container {
+        padding-top: 120px;
+    }
+
+    .mobile-wrapper {
+        display: block;
+    }
+}  
+
+@media screen and (max-width: 400px) {
     .col {
         width: 100%;
     }
+
     .hide-mobile {
         display: none;
+    }
+    
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    .header-container {
+        position: absolute;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .mybutton {
+        margin-left: 0%;
+    }
+
+    .logo {
+        padding: 40px;
+    }
+
+    .container {
+        padding-top: 240px;
     }
 }
