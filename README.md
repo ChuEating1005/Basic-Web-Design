@@ -11,6 +11,10 @@
 - [W3 School](https://www.w3schools.com/)
 - [codecademy](https://www.codecademy.com/)
 
+## In-class Projects
+- [Project 2](https://chueating1005.github.io/Basic-Web-Design/Projects/Project2/index)
+- [Project 3](https://chueating1005.github.io/Basic-Web-Design/Projects/Project3/index)
+
 ## In-class Exercise
 ### Exercise 1
 - [Exercise 1a](https://chueating1005.github.io/Basic-Web-Design/Exercises/exercise1/class-project-1a_answer)
